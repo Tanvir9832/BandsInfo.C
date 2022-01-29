@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family:sans-serif ,'Segoe UI', Tahoma, Geneva, Verdana, ;
+    
+  
+
+  
+}
+body{
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+ul a{
+    
+    text-decoration: none;
+    padding: 10px;
+    background-color:rgb(85, 30, 78);
+    box-shadow: 2px 2px 2px rgb(65, 61, 61);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+
+}
+.menu{
+    margin-left: auto;
+    padding: 20px;
+    width:50%;
+   
+}
+.logo{
+ padding-left:40px;
+ padding-top: 5px;
+ color: rgb(223, 147, 147);
+ width:40%;
+ text-shadow:2px 2px 2px rgb(47, 51, 51);
+ font-size: 1.4rem;
+ 
+}
+.nav1{
+  display: flex;
+  background-color: turquoise;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 2px black;
+  
+}
+ul a::before{
+    content: "";
+    position:absolute;
+    width:0;
+    top: 90%;
+    left:0px;
+    height: 2px;
+    background-color: white;
+    transition:all 1s linear;
+}
+ul a:hover::before{
+    width: 100%;
+}
+
+.half_body{
+    height: 800px;
+    width: 2400px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+   
+    
+}  
+.div1{
+    background-color: white;
+    height: 495px;
+    width: 500px;
+    position: absolute;
+    top: 290px;
+    right: 200px;
+}
+ 
+.img1{
+    height:400px;
+    width: 500px;
+    
+}
+/*.mid h2{
+padding: 25px;*/
+
+
+.heading{
+    color: rgb(107, 221, 230);
+    position: absolute;
+    top: 49px;
+    font-size: 4rem;
+    right: 750px;
+    
+}
+.head{
+    position: absolute;
+    top: 210px;
+    color: rgb(238, 155, 241);
+    right:630px ;
+}
+ .head1{
+    text-align: center;
+    font-weight: bold;
+}
+.head2{
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(91, 91, 129);
+    height: 25px;
+    width: 80px;
+    
+}
+.div2{
+    background-color: white;
+    height: 495px;
+    width: 500px;
+    position: absolute;
+    top: 290px;
+    left: 650px;
+}
+.img2{
+    height:400px;
+    width: 500px;
+}
+.div3{
+    background-color: white;
+    height: 495px;
+    width: 500px;
+    position: absolute;
+    top: 900px;
+    left: 1200px;
+}
+.img3{
+    height:400px;
+    width: 500px;
+}
